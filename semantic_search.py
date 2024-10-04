@@ -2,8 +2,6 @@ from datasets import load_dataset
 from sentence_transformers import SentenceTransformer
 import torch
 
-import numpy as np
-
 import psycopg2
 from tqdm.auto import tqdm
 
@@ -30,19 +28,18 @@ if device != 'cuda':
           "clicking Runtime > Change runtime type > GPU.")
 
 model = SentenceTransformer('all-MiniLM-L6-v2', device=device)
-# model
 
 conn = psycopg2.connect(dbname="ajttd964b1", user="uk5vsrwdus0", password="Dbpassword123", host="free.lantern.dev", port="6432")
 
-# # Create the table
-# cursor = conn.cursor()
+# Create the table
+cursor = conn.cursor()
 
-# create_table_query = "CREATE TABLE questions (id serial PRIMARY key, content text, vector real[]);"
+create_table_query = "CREATE TABLE questions (id serial PRIMARY key, content text, vector real[]);"
 
-# cursor.execute(create_table_query)
+cursor.execute(create_table_query)
 
-# conn.commit()
-# cursor.close()
+conn.commit()
+cursor.close()
 
 
 cursor = conn.cursor()
