@@ -79,8 +79,8 @@ cursor.execute("SET enable_seqscan = false;")
 cursor.execute(f"SELECT content, cos_dist(vector, ARRAY{embedded_query}) AS dist FROM questions ORDER BY vector <-> ARRAY{embedded_query} LIMIT 5;")
 
 record = cursor.fetchone()
-print("=== RECORD === ")
-print(record)
+print("=== RECORDS === ")
+# print(record)
 while record:
     print(f"{record[0]}  (dist: {record[1]})")
     record = cursor.fetchone()
