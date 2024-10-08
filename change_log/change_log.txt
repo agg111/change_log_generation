@@ -1,0 +1,69 @@
+
+
+<<START>>
+2.0.1
+The changes primarily focus on refactoring and improving the handling of asynchronous operations and caching in Next.js. Key updates include moving the AfterContext to WorkStore, removing a fake WorkStore around unstable_cache in Pages, and adding a pathname to PrerenderStore. These changes aim to enhance performance and provide better support for features like 'after()' in various scenarios.
+
+Features: Asynchronous operations, Caching, App Router, Pages Router
+
+Date: October 7, 2024
+<<END>>
+
+<<START>>
+2.0.2
+The changes primarily focus on refactoring and improving the handling of asynchronous operations and caching in Next.js. Key updates include moving the AfterContext to WorkStore, removing a fake WorkStore around unstable_cache in Pages, and unifying RequestStore, PrerenderStore, and CacheStore into a single AsyncLocalStorage context. These changes aim to enhance performance and simplify the codebase structure.
+
+Features: Next.js, AsyncLocalStorage, Caching, Server-Side Rendering
+
+Date: October 7, 2024
+<<END>>
+
+<<START>>
+The changes primarily focus on refactoring and improving the handling of asynchronous operations and caching in Next.js. Key updates include moving the AfterContext to WorkStore, removing a fake WorkStore around unstable_cache in Pages, and unifying RequestStore, PrerenderStore, and CacheStore into a single AsyncLocalStorage context. These changes aim to enhance performance and simplify the codebase structure.
+
+Features: Next.js, AsyncLocalStorage, Caching, Server-Side Rendering
+
+Date: October 7, 2024
+<<END>>
+
+<<START>>
+The changes primarily focus on refactoring and improving the handling of asynchronous operations and caching in Next.js. Key updates include moving the AfterContext to WorkStore, removing a fake WorkStore around unstable_cache in Pages, and unifying RequestStore, PrerenderStore, and CacheStore into a single AsyncLocalStorage context. These changes aim to enhance performance and simplify the codebase structure.
+
+Features: Next.js, AsyncLocalStorage, Caching, Server-Side Rendering
+
+Date: October 7, 2024
+<<END>>
+
+<<START>>
+The changes primarily focus on improving the handling of asynchronous operations and caching in Next.js. Key features include moving the AfterContext to WorkStore, removing a fake WorkStore around unstable_cache in Pages, and adding pathname to PrerenderStore. These changes aim to enhance performance and provide better support for asynchronous operations across different parts of the Next.js framework.
+
+Features: Next.js, Asynchronous Operations, Caching, WorkStore, PrerenderStore
+
+Date: October 7, 2024
+<<END>>
+
+<<START>>
+The changes primarily focus on improving the handling of asynchronous operations and caching in Next.js. Key updates include moving the AfterContext to WorkStore, removing a fake WorkStore around unstable_cache in Pages, and adding pathname to PrerenderStore. These changes aim to enhance performance and provide better support for features like `after()` in various scenarios including Middleware and App Router.
+
+Features: Asynchronous operations, Caching, App Router, Middleware
+
+Date: October 7, 2024
+<<END>>
+
+<<START>>
+This set of changes focuses on improving the Next.js framework's handling of asynchronous operations, caching, and prerendering. It introduces a new WorkUnitStore to unify various storage types, refactors the AfterContext to be associated with the WorkStore instead of RequestStore, and enhances the handling of Math.random() calls during prerendering. These changes aim to improve performance and provide better support for dynamic content generation.
+
+Feature Tags: Next.js, React, Server-Side Rendering, Caching, Prerendering
+
+Date: October 7, 2024
+<<END>>
+
+<<START>>
+2.3.1
+
+This set of changes focuses on improving Next.js's handling of dynamic data, caching, and asynchronous operations. It introduces a new `WorkUnitStore` that unifies previously separate stores, enhances the handling of `Math.random()` calls during prerendering, and moves the `AfterContext` to the `WorkStore` for better support of `after()` callbacks. These changes aim to improve performance and provide more consistent behavior across different rendering scenarios.
+
+Feature Tags: Next.js, Dynamic Rendering, Caching, Asynchronous Operations
+
+Date: October 7, 2024
+<<END>>

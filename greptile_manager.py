@@ -1,6 +1,12 @@
 import requests
 import os
 from dotenv import load_dotenv, dotenv_values
+import logging
+
+logging.basicConfig(level=logging.INFO,  # Set the logging level to INFO
+                    format='%(asctime)s - %(levelname)s - %(message)s',
+                    handlers=[logging.FileHandler('logging/error.log'),  # Log to a file
+                              logging.StreamHandler()])  # Log to console
 
 load_dotenv()
 
@@ -68,14 +74,15 @@ def query(repo, branch, question):
     response = requests.post(url, json=payload, headers=headers)
     print(response.json())
 
-def prepare_change_log(diffs):
+def prepare_change_log(diffs, time_period=7):
+    logging.info("Preparing change log...")
     url = "https://api.greptile.com/v2/query"
 
     payload = {
         "messages": [
             {
                 "id": "id-123",
-                "content": f"""Given is a series of diffs for the past 7 days for vercel/next.js repo. Diffs - {diffs} 
+                "content": f"""Given is a series of diffs for the past {time_period} days for vercel/next.js repo. Diffs - {diffs} 
                 Generate a change log with a succinct overview about the changes STRICTLY in 2-3 sentences.   
                 Identify what the features that the changes are about.
                 Get the latest data of the change based on the diff.
@@ -107,20 +114,30 @@ def prepare_change_log(diffs):
     }
 
     response = requests.request("POST", url, json=payload, headers=headers)
-
-    print(response.json()["message"])
+    
+    change_log = response.json()["message"]
+    print(change_log)
+    return change_log
 
 if __name__ == "__main__":
+
     # index("XCS224N-Handouts", "main")
     # index("huggingface/course", "main")
     
     # get_progress("github%3Amain%3Ahuggingface%2Fcourse")
 
-    repo = "agg111/wallet-pnl"
+    # repo = "agg111/wallet-pnl"
+    # branch = "main"
+    
+    # get_progress("github%3Amain%3Aagg111%2Fwallet-pnl")
+    # question = "what's this about?"
+    # question = "Where's the code responsible for concatenating dataframes?"
+    # query(repo, branch, question)
+    
+    repo = "huggingface/autotrain-advanced"
     branch = "main"
     # index(repo, branch)
-    get_progress("github%3Amain%3Aagg111%2Fwallet-pnl")
-    # question = "what's this about?"
-    question = "Where's the code responsible for concatenating dataframes?"
-    query(repo, branch, question)
+
+    # get_progress("github%3Amain%3Ahuggingface%2Fautotrain-advanced")
+    query(repo, branch, "What kinds of trainers does autotrain have? Restrict response within 100 words")
 

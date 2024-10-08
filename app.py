@@ -1,9 +1,10 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 import requests
 from datetime import datetime, timedelta
-
+import logging
 import os
 
+import utils
 from dotenv import load_dotenv, dotenv_values
 
 load_dotenv()
@@ -13,6 +14,42 @@ app = Flask(__name__)
 # print(os.getenv("GITHUB_PAT"))
 github_token = os.getenv("GITHUB_PAT")
 greptile_api_key = os.getenv("GREPTILE_KEY")
+CHANGE_LOG_FILE_PATH = "change_log/change_log.txt"
+
+@app.template_filter('nl2br')
+def nl2br(value):
+    return value.replace('\n', '<br>')
+
+@app.route('/')
+def render_changelog():
+    changelog = utils.fetch_changelog()
+    # Render the paragraphs in the UI
+    return render_template('changelog.html', changelog=changelog)
+
+# def fetch():
+#     try:
+#         # Open the file and read its content
+#         with open(CHANGE_LOG_FILE_PATH, 'r') as file:
+#             content = file.read()
+
+#         # Split the content into paragraphs using the separators **start** and **end**
+#         changelogs = content.split('<<END>>')  # Assuming paragraphs are separated by two newlines
+
+#         # Add **start** and **end** to each paragraph
+#         formatted_changelogs = [
+#             cl.replace('<<START>>', '').strip() 
+#             for cl in changelogs 
+#             if cl.strip()
+#         ]
+
+#         # Print the list of formatted paragraphs
+#         for fc in formatted_changelogs:
+#             print(fc)
+#         return formatted_changelogs[::-1]
+#     except Exception as e:
+#         # Print an error message if something goes wrong
+#         logging.error(f"An error occurred while reading the file: {e}")
+
 
 @app.route('/get-repositories', methods=['GET'])
 def get_repos():
@@ -44,7 +81,7 @@ def commits():
 
 def get_commits(owner, repo, token, time_period):
     since_date = (datetime.utcnow() - timedelta(days=time_period)).isoformat() + 'Z'  # ISO 8601 format
-    print("Since date = " , since_date)
+    # print("Since date = " , since_date)
     url = f"https://api.github.com/repos/{owner}/{repo}/commits?since={since_date}"
     
     headers = {

@@ -1,0 +1,187 @@
+2024-10-07 14:26:56,765 - INFO - Fetching commits
+2024-10-07 14:26:57,518 - INFO - Fetching diffs
+2024-10-07 14:28:00,365 - INFO - Change log updated successfully!
+2024-10-07 14:31:36,180 - INFO - Fetching commits
+2024-10-07 14:31:36,899 - INFO - Fetching diffs
+2024-10-07 14:31:46,202 - INFO - Preparing change log...
+2024-10-07 14:32:35,782 - INFO - Change log updated successfully!
+2024-10-07 14:49:34,412 - INFO - Fetching commits
+2024-10-07 14:49:35,048 - INFO - Fetching diffs
+2024-10-07 14:49:44,794 - INFO - Preparing change log...
+2024-10-07 14:50:40,050 - INFO - Change log updated successfully!
+2024-10-07 14:52:34,871 - INFO - Fetching commits
+2024-10-07 14:52:35,394 - INFO - Fetching diffs
+2024-10-07 14:52:45,804 - INFO - Preparing change log...
+2024-10-07 14:53:33,281 - INFO - Change log updated successfully!
+2024-10-07 15:02:07,007 - WARNING -  * Debugger is active!
+2024-10-07 15:02:07,015 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:02:11,082 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/app.py', reloading
+2024-10-07 15:02:11,533 - WARNING -  * Debugger is active!
+2024-10-07 15:02:11,541 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:02:34,841 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/utils.py', reloading
+2024-10-07 15:02:35,208 - WARNING -  * Debugger is active!
+2024-10-07 15:02:35,215 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:02:40,317 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/app.py', reloading
+2024-10-07 15:02:40,683 - WARNING -  * Debugger is active!
+2024-10-07 15:02:40,707 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:02:47,813 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/app.py', reloading
+2024-10-07 15:02:48,125 - WARNING -  * Debugger is active!
+2024-10-07 15:02:48,132 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:03:37,790 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/generate_changelog.py', reloading
+2024-10-07 15:03:38,279 - WARNING -  * Debugger is active!
+2024-10-07 15:03:38,287 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:03:44,413 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/generate_changelog.py', reloading
+2024-10-07 15:03:44,756 - WARNING -  * Debugger is active!
+2024-10-07 15:03:44,764 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:03:52,364 - INFO - Fetching commits
+2024-10-07 15:03:53,090 - INFO - Fetching diffs
+2024-10-07 15:04:03,956 - INFO - Preparing change log...
+2024-10-07 15:04:16,194 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/github_manager.py', reloading
+2024-10-07 15:04:16,726 - WARNING -  * Debugger is active!
+2024-10-07 15:04:16,733 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:04:23,842 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/github_manager.py', reloading
+2024-10-07 15:04:24,367 - WARNING -  * Debugger is active!
+2024-10-07 15:04:24,374 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:04:44,633 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/github_manager.py', reloading
+2024-10-07 15:04:45,036 - WARNING -  * Debugger is active!
+2024-10-07 15:04:45,045 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:05:08,994 - INFO - Change log updated successfully!
+2024-10-07 15:06:26,479 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_search.py', reloading
+2024-10-07 15:06:26,791 - WARNING -  * Debugger is active!
+2024-10-07 15:06:26,798 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:06:38,945 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_search.py', reloading
+2024-10-07 15:06:39,355 - WARNING -  * Debugger is active!
+2024-10-07 15:06:39,362 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:06:47,476 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_search.py', reloading
+2024-10-07 15:06:47,788 - WARNING -  * Debugger is active!
+2024-10-07 15:06:47,803 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:07:18,200 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_search.py', reloading
+2024-10-07 15:07:18,541 - WARNING -  * Debugger is active!
+2024-10-07 15:07:18,550 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:09:42,257 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/semantic_search.py', reloading
+2024-10-07 15:09:42,682 - WARNING -  * Debugger is active!
+2024-10-07 15:09:42,690 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:09:57,880 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_search.py', reloading
+2024-10-07 15:09:58,247 - WARNING -  * Debugger is active!
+2024-10-07 15:09:58,258 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:10:03,359 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_search.py', reloading
+2024-10-07 15:10:03,726 - WARNING -  * Debugger is active!
+2024-10-07 15:10:03,734 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:10:07,793 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_search.py', reloading
+2024-10-07 15:10:08,184 - WARNING -  * Debugger is active!
+2024-10-07 15:10:08,225 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:11:06,997 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_embeddings.py', reloading
+2024-10-07 15:11:07,406 - WARNING -  * Debugger is active!
+2024-10-07 15:11:07,413 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:11:18,559 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_embeddings.py', reloading
+2024-10-07 15:11:18,958 - WARNING -  * Debugger is active!
+2024-10-07 15:11:18,964 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:11:51,338 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_embeddings.py', reloading
+2024-10-07 15:11:51,787 - WARNING -  * Debugger is active!
+2024-10-07 15:11:51,795 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:12:22,146 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:12:22,901 - WARNING -  * Debugger is active!
+2024-10-07 15:12:22,930 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:12:32,058 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:12:32,843 - WARNING -  * Debugger is active!
+2024-10-07 15:12:32,865 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:13:05,310 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:13:05,698 - WARNING -  * Debugger is active!
+2024-10-07 15:13:05,708 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:13:21,935 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:13:22,280 - WARNING -  * Debugger is active!
+2024-10-07 15:13:22,289 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:13:29,390 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:13:29,749 - WARNING -  * Debugger is active!
+2024-10-07 15:13:29,756 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:13:30,785 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:13:31,146 - WARNING -  * Debugger is active!
+2024-10-07 15:13:31,152 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:13:56,481 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:13:57,181 - WARNING -  * Debugger is active!
+2024-10-07 15:13:57,203 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:16:11,859 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:16:12,211 - WARNING -  * Debugger is active!
+2024-10-07 15:16:12,218 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:16:17,299 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:16:17,619 - WARNING -  * Debugger is active!
+2024-10-07 15:16:17,627 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:16:28,769 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:16:29,253 - WARNING -  * Debugger is active!
+2024-10-07 15:16:29,260 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:17:56,542 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-07 15:18:16,472 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_embeddings.py', reloading
+2024-10-07 15:18:16,811 - WARNING -  * Debugger is active!
+2024-10-07 15:18:16,819 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:18:32,001 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_embeddings.py', reloading
+2024-10-07 15:18:32,483 - WARNING -  * Debugger is active!
+2024-10-07 15:18:32,492 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:18:36,386 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-07 15:19:40,310 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:19:41,289 - WARNING -  * Debugger is active!
+2024-10-07 15:19:41,297 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:20:01,561 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_embeddings.py', reloading
+2024-10-07 15:20:01,946 - WARNING -  * Debugger is active!
+2024-10-07 15:20:01,963 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:20:12,082 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_embeddings.py', reloading
+2024-10-07 15:20:12,501 - WARNING -  * Debugger is active!
+2024-10-07 15:20:12,508 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:20:14,556 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_embeddings.py', reloading
+2024-10-07 15:20:14,912 - WARNING -  * Debugger is active!
+2024-10-07 15:20:14,920 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:20:35,228 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_embeddings.py', reloading
+2024-10-07 15:20:35,780 - WARNING -  * Debugger is active!
+2024-10-07 15:20:35,793 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:20:38,854 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/changelog_embeddings.py', reloading
+2024-10-07 15:20:39,233 - WARNING -  * Debugger is active!
+2024-10-07 15:20:39,248 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:20:47,363 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:20:47,791 - WARNING -  * Debugger is active!
+2024-10-07 15:20:47,797 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:20:56,927 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:20:57,287 - WARNING -  * Debugger is active!
+2024-10-07 15:20:57,294 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:21:05,406 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:21:05,742 - WARNING -  * Debugger is active!
+2024-10-07 15:21:05,749 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:21:11,838 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:21:12,425 - WARNING -  * Debugger is active!
+2024-10-07 15:21:12,445 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:21:55,981 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/semantic_search.py', reloading
+2024-10-07 15:21:56,467 - WARNING -  * Debugger is active!
+2024-10-07 15:21:56,473 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:22:56,221 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:22:56,586 - WARNING -  * Debugger is active!
+2024-10-07 15:22:56,593 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:22:57,619 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:22:57,959 - WARNING -  * Debugger is active!
+2024-10-07 15:22:57,966 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:23:06,092 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/query_changelogs.py', reloading
+2024-10-07 15:23:06,433 - WARNING -  * Debugger is active!
+2024-10-07 15:23:06,440 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:33:32,172 - INFO - 127.0.0.1 - - [07/Oct/2024 15:33:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-07 15:33:32,209 - INFO - 127.0.0.1 - - [07/Oct/2024 15:33:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-07 15:33:32,210 - INFO - 127.0.0.1 - - [07/Oct/2024 15:33:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-07 15:33:32,253 - INFO - 127.0.0.1 - - [07/Oct/2024 15:33:32] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=t31Lqft5TzGIJIopXHRV HTTP/1.1" 200 -
+2024-10-07 15:34:11,624 - INFO -  * Detected change in '/Users/aishwarya/greptile_practice/app.py', reloading
+2024-10-07 15:34:11,976 - WARNING -  * Debugger is active!
+2024-10-07 15:34:12,010 - INFO -  * Debugger PIN: 141-855-077
+2024-10-07 15:34:13,774 - INFO - 127.0.0.1 - - [07/Oct/2024 15:34:13] "GET / HTTP/1.1" 200 -
+2024-10-07 15:34:43,074 - INFO - 127.0.0.1 - - [07/Oct/2024 15:34:43] "GET / HTTP/1.1" 200 -
+2024-10-07 15:36:51,821 - INFO - 127.0.0.1 - - [07/Oct/2024 15:36:51] "GET / HTTP/1.1" 200 -
+2024-10-07 15:36:51,839 - INFO - 127.0.0.1 - - [07/Oct/2024 15:36:51] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-10-07 15:37:31,718 - INFO - 127.0.0.1 - - [07/Oct/2024 15:37:31] "GET / HTTP/1.1" 200 -
+2024-10-07 15:37:31,741 - INFO - 127.0.0.1 - - [07/Oct/2024 15:37:31] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-10-07 15:38:39,380 - INFO - 127.0.0.1 - - [07/Oct/2024 15:38:39] "GET / HTTP/1.1" 200 -
+2024-10-07 15:38:39,395 - INFO - 127.0.0.1 - - [07/Oct/2024 15:38:39] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-10-07 15:40:13,510 - INFO - Fetching commits
+2024-10-07 15:40:14,304 - INFO - Fetching diffs
+2024-10-07 15:40:25,635 - INFO - Preparing change log...
+2024-10-07 15:41:32,421 - INFO - Change log updated successfully!
+2024-10-07 15:41:46,895 - INFO - 127.0.0.1 - - [07/Oct/2024 15:41:46] "GET / HTTP/1.1" 200 -
+2024-10-07 15:41:46,907 - INFO - 127.0.0.1 - - [07/Oct/2024 15:41:46] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-10-07 15:44:27,607 - INFO - 127.0.0.1 - - [07/Oct/2024 15:44:27] "GET / HTTP/1.1" 200 -
+2024-10-07 15:44:27,641 - INFO - 127.0.0.1 - - [07/Oct/2024 15:44:27] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-10-07 19:59:54,637 - INFO - Fetching commits
+2024-10-07 19:59:55,093 - INFO - Fetching diffs
+2024-10-07 20:00:08,703 - INFO - Preparing change log...
